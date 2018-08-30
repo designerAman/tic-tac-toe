@@ -1,0 +1,89 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#back{
+    height: 100%;
+    width: 100%;
+    background-color: rgb(156, 151, 151);
+}
+#write1, #write2, #write3{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    color: green;
+    display: none;
+    text-shadow: 1px 1px 10px yellow,1px 1px 10px yellow,1px 1px 10px yellow,1px 1px 10px yellow,1px 1px 10px yellow;
+}
+#overlay{
+    height: 300px;
+    width: 300px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    z-index: 5;
+    display: none;
+}
+#game{
+    height: 300px;
+    width: 300px;
+    background-color: #262626;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    border: 1px solid black;
+    border-top: none;
+    /* display: none; */
+}
+.size{
+    height: 100px;
+    width: 300px;
+    background-color: green;
+    display: flex;
+}
+.same{
+    height: 100%;
+    width: 100px;
+    background-color: yellow;
+    position: relative;
+}
+.first{
+    border: 1px solid black;
+    border-left: none;
+    border-bottom: none;
+}
+.second{
+    border: 1px solid black;
+    border-left: none;
+    border-bottom: none;
+}
+.third{
+    border: 1px solid black;
+    border-left: none;
+    border-bottom: none;
+}
+#zero1, #zero2, #zero3, #zero4, #zero5, #zero6, #zero7, #zero8, #zero9{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+#x1, #x2, #x3, #x4, #x5, #x6, #x7, #x8, #x9{
+    display: none;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
